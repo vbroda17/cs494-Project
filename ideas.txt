@@ -1,0 +1,3 @@
+Make the hello world program have a runtime decided scheduler. Show this works with a simple shell script.
+
+Download and run at least one of the benchmarks and have them run.

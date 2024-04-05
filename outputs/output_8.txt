@@ -1,0 +1,63 @@
+Using scheduling type: static
+Number of threads: 8
+Hello from thread 0
+Hello from thread 6
+Hello from thread 0
+Hello from thread 6
+Hello from thread 1
+Hello from thread 1
+Hello from thread 4
+Hello from thread 4
+Hello from thread 7
+Hello from thread 7
+Hello from thread 5
+Hello from thread 5
+Hello from thread 2
+Hello from thread 2
+Hello from thread 3
+Hello from thread 3
+Sum 1784293664
+Elapsed time: 0.010873 seconds
+
+Using scheduling type: dynamic
+Number of threads: 8
+Hello from thread 2
+Hello from thread 2
+Hello from thread 2
+Hello from thread 2
+Hello from thread 6
+Hello from thread 0
+Hello from thread 0
+Hello from thread 0
+Hello from thread 0
+Hello from thread 0
+Hello from thread 0
+Hello from thread 0
+Hello from thread 0
+Hello from thread 0
+Hello from thread 7
+Hello from thread 2
+Sum 1784293664
+Elapsed time: 0.026963 seconds
+
+Using scheduling type: auto
+Number of threads: 8
+Hello from thread 7
+Hello from thread 2
+Hello from thread 4
+Hello from thread 3
+Hello from thread 3
+Hello from thread 2
+Hello from thread 4
+Hello from thread 6
+Hello from thread 6
+Hello from thread 0
+Hello from thread 0
+Hello from thread 7
+Hello from thread 5
+Hello from thread 5
+Hello from thread 1
+Hello from thread 1
+Sum 1784293664
+Elapsed time: 0.013711 seconds
+

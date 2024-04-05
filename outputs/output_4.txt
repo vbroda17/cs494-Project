@@ -1,0 +1,39 @@
+Using scheduling type: static
+Number of threads: 4
+Hello from thread 0
+Hello from thread 0
+Hello from thread 1
+Hello from thread 2
+Hello from thread 1
+Hello from thread 2
+Hello from thread 3
+Hello from thread 3
+Sum 1784293664
+Elapsed time: 0.000723 seconds
+
+Using scheduling type: dynamic
+Number of threads: 4
+Hello from thread 1
+Hello from thread 3
+Hello from thread 2
+Hello from thread 2
+Hello from thread 2
+Hello from thread 2
+Hello from thread 3
+Hello from thread 0
+Sum 1784293664
+Elapsed time: 0.020721 seconds
+
+Using scheduling type: auto
+Number of threads: 4
+Hello from thread 3
+Hello from thread 2
+Hello from thread 2
+Hello from thread 3
+Hello from thread 1
+Hello from thread 0
+Hello from thread 1
+Hello from thread 0
+Sum 1784293664
+Elapsed time: 0.002194 seconds
+
