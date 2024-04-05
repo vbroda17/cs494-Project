@@ -18,13 +18,19 @@ do
 
 
     echo "Setting OMP_SCHEDULE to static"
-    export OMP_SCHEDULE="static"
+    export OMP_SCHEDULE="static, 2"
     echo "Running program..."
     ./helloworld > $output
     echo -e "\n"
 
     echo "Setting OMP_SCHEDULE to dynamic"
-    export OMP_SCHEDULE="dynamic"
+    export OMP_SCHEDULE="dynamic, 2"
+    echo "Running program..."
+    ./helloworld >> $output
+    echo -e "\n"
+
+    echo "Setting OMP_SCHEDULE to guided"
+    export OMP_SCHEDULE="guided"
     echo "Running program..."
     ./helloworld >> $output
     echo -e "\n"
