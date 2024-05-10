@@ -1,0 +1,275 @@
+TESTING static
+chunk size 1
+ Average Time in seconds: .19
+ Average Mop/s total: 449.08
+ Average Mop/s/thread: 56.13
+chunk size 2
+ Average Time in seconds: .19
+ Average Mop/s total: 439.23
+ Average Mop/s/thread: 54.90
+chunk size 4
+ Average Time in seconds: .27
+ Average Mop/s total: 357.31
+ Average Mop/s/thread: 44.66
+chunk size 8
+ Average Time in seconds: .24
+ Average Mop/s total: 382.15
+ Average Mop/s/thread: 47.76
+chunk size 16
+ Average Time in seconds: .26
+ Average Mop/s total: 356.52
+ Average Mop/s/thread: 44.56
+chunk size 32
+ Average Time in seconds: .20
+ Average Mop/s total: 418.03
+ Average Mop/s/thread: 52.25
+chunk size 64
+ Average Time in seconds: .19
+ Average Mop/s total: 425.96
+ Average Mop/s/thread: 53.24
+chunk size 128
+ Average Time in seconds: .23
+ Average Mop/s total: 357.03
+ Average Mop/s/thread: 44.62
+chunk size 256
+ Average Time in seconds: .35
+ Average Mop/s total: 257.76
+ Average Mop/s/thread: 32.22
+chunk size 512
+ Average Time in seconds: .31
+ Average Mop/s total: 270.67
+ Average Mop/s/thread: 33.83
+chunk size 1024
+ Average Time in seconds: .45
+ Average Mop/s total: 187.82
+ Average Mop/s/thread: 23.47
+
+TESTING monotonic:static
+chunk size 1
+ Average Time in seconds: .18
+ Average Mop/s total: 447.71
+ Average Mop/s/thread: 55.96
+chunk size 2
+ Average Time in seconds: .19
+ Average Mop/s total: 446.22
+ Average Mop/s/thread: 55.77
+chunk size 4
+ Average Time in seconds: .18
+ Average Mop/s total: 450.65
+ Average Mop/s/thread: 56.33
+chunk size 8
+ Average Time in seconds: .18
+ Average Mop/s total: 458.21
+ Average Mop/s/thread: 57.27
+chunk size 16
+ Average Time in seconds: .18
+ Average Mop/s total: 453.56
+ Average Mop/s/thread: 56.69
+chunk size 32
+ Average Time in seconds: .18
+ Average Mop/s total: 457.25
+ Average Mop/s/thread: 57.15
+chunk size 64
+ Average Time in seconds: .19
+ Average Mop/s total: 435.56
+ Average Mop/s/thread: 54.44
+chunk size 128
+ Average Time in seconds: .23
+ Average Mop/s total: 355.89
+ Average Mop/s/thread: 44.48
+chunk size 256
+ Average Time in seconds: .26
+ Average Mop/s total: 316.31
+ Average Mop/s/thread: 39.53
+chunk size 512
+ Average Time in seconds: .28
+ Average Mop/s total: 292.75
+ Average Mop/s/thread: 36.59
+chunk size 1024
+ Average Time in seconds: .45
+ Average Mop/s total: 188.33
+ Average Mop/s/thread: 23.54
+
+TESTING dynamic
+chunk size 1
+ Average Time in seconds: .21
+ Average Mop/s total: 401.84
+ Average Mop/s/thread: 50.23
+chunk size 2
+ Average Time in seconds: .20
+ Average Mop/s total: 413.09
+ Average Mop/s/thread: 51.63
+chunk size 4
+ Average Time in seconds: .18
+ Average Mop/s total: 461.79
+ Average Mop/s/thread: 57.72
+chunk size 8
+ Average Time in seconds: .18
+ Average Mop/s total: 453.75
+ Average Mop/s/thread: 56.71
+chunk size 16
+ Average Time in seconds: .18
+ Average Mop/s total: 458.81
+ Average Mop/s/thread: 57.35
+chunk size 32
+ Average Time in seconds: .18
+ Average Mop/s total: 461.85
+ Average Mop/s/thread: 57.73
+chunk size 64
+ Average Time in seconds: .19
+ Average Mop/s total: 438.10
+ Average Mop/s/thread: 54.76
+chunk size 128
+ Average Time in seconds: .23
+ Average Mop/s total: 356.77
+ Average Mop/s/thread: 44.59
+chunk size 256
+ Average Time in seconds: .27
+ Average Mop/s total: 308.32
+ Average Mop/s/thread: 38.54
+chunk size 512
+ Average Time in seconds: .29
+ Average Mop/s total: 281.68
+ Average Mop/s/thread: 35.21
+chunk size 1024
+ Average Time in seconds: .42
+ Average Mop/s total: 199.04
+ Average Mop/s/thread: 24.88
+
+TESTING monotonic:dynamic
+chunk size 1
+ Average Time in seconds: .18
+ Average Mop/s total: 454.26
+ Average Mop/s/thread: 56.78
+chunk size 2
+ Average Time in seconds: .18
+ Average Mop/s total: 456.00
+ Average Mop/s/thread: 57.00
+chunk size 4
+ Average Time in seconds: .18
+ Average Mop/s total: 451.06
+ Average Mop/s/thread: 56.38
+chunk size 8
+ Average Time in seconds: .18
+ Average Mop/s total: 462.53
+ Average Mop/s/thread: 57.81
+chunk size 16
+ Average Time in seconds: .18
+ Average Mop/s total: 464.31
+ Average Mop/s/thread: 58.04
+chunk size 32
+ Average Time in seconds: .18
+ Average Mop/s total: 463.86
+ Average Mop/s/thread: 57.98
+chunk size 64
+ Average Time in seconds: .19
+ Average Mop/s total: 441.18
+ Average Mop/s/thread: 55.14
+chunk size 128
+ Average Time in seconds: .23
+ Average Mop/s total: 364.56
+ Average Mop/s/thread: 45.57
+chunk size 256
+ Average Time in seconds: .28
+ Average Mop/s total: 301.42
+ Average Mop/s/thread: 37.67
+chunk size 512
+ Average Time in seconds: .31
+ Average Mop/s total: 270.97
+ Average Mop/s/thread: 33.87
+chunk size 1024
+ Average Time in seconds: .47
+ Average Mop/s total: 180.50
+ Average Mop/s/thread: 22.56
+
+TESTING guided
+chunk size 1
+ Average Time in seconds: .19
+ Average Mop/s total: 439.27
+ Average Mop/s/thread: 54.90
+chunk size 2
+ Average Time in seconds: .18
+ Average Mop/s total: 460.59
+ Average Mop/s/thread: 57.57
+chunk size 4
+ Average Time in seconds: .18
+ Average Mop/s total: 454.77
+ Average Mop/s/thread: 56.84
+chunk size 8
+ Average Time in seconds: .18
+ Average Mop/s total: 451.75
+ Average Mop/s/thread: 56.47
+chunk size 16
+ Average Time in seconds: .18
+ Average Mop/s total: 462.60
+ Average Mop/s/thread: 57.82
+chunk size 32
+ Average Time in seconds: .20
+ Average Mop/s total: 427.26
+ Average Mop/s/thread: 53.40
+chunk size 64
+ Average Time in seconds: .19
+ Average Mop/s total: 428.22
+ Average Mop/s/thread: 53.52
+chunk size 128
+ Average Time in seconds: .23
+ Average Mop/s total: 354.66
+ Average Mop/s/thread: 44.33
+chunk size 256
+ Average Time in seconds: .27
+ Average Mop/s total: 309.42
+ Average Mop/s/thread: 38.67
+chunk size 512
+ Average Time in seconds: .28
+ Average Mop/s total: 294.70
+ Average Mop/s/thread: 36.83
+chunk size 1024
+ Average Time in seconds: .42
+ Average Mop/s total: 196.30
+ Average Mop/s/thread: 24.53
+
+TESTING monotonic:guided
+chunk size 1
+ Average Time in seconds: .18
+ Average Mop/s total: 460.67
+ Average Mop/s/thread: 57.58
+chunk size 2
+ Average Time in seconds: .18
+ Average Mop/s total: 458.03
+ Average Mop/s/thread: 57.25
+chunk size 4
+ Average Time in seconds: .18
+ Average Mop/s total: 456.09
+ Average Mop/s/thread: 57.01
+chunk size 8
+ Average Time in seconds: .18
+ Average Mop/s total: 457.40
+ Average Mop/s/thread: 57.17
+chunk size 16
+ Average Time in seconds: .18
+ Average Mop/s total: 459.18
+ Average Mop/s/thread: 57.39
+chunk size 32
+ Average Time in seconds: .18
+ Average Mop/s total: 456.85
+ Average Mop/s/thread: 57.10
+chunk size 64
+ Average Time in seconds: .19
+ Average Mop/s total: 438.86
+ Average Mop/s/thread: 54.85
+chunk size 128
+ Average Time in seconds: .23
+ Average Mop/s total: 358.59
+ Average Mop/s/thread: 44.82
+chunk size 256
+ Average Time in seconds: .27
+ Average Mop/s total: 303.08
+ Average Mop/s/thread: 37.88
+chunk size 512
+ Average Time in seconds: .29
+ Average Mop/s total: 284.59
+ Average Mop/s/thread: 35.57
+chunk size 1024
+ Average Time in seconds: .43
+ Average Mop/s total: 196.48
+ Average Mop/s/thread: 24.56

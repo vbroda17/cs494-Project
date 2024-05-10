@@ -1,0 +1,4 @@
+Innerreps are the amount of times individual function runs its parallel for loop when called
+Outerreps arethe amount of times a function is ran when called with the benchmark, 20 to ensure good accuracy from average
+
+

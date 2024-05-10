@@ -1,0 +1,699 @@
+Running OpenMP benchmark version 4.0
+	8 thread(s)
+	20 outer repetitions
+	1000.00 test time (microseconds)
+	40 delay length (iterations) 
+	0.100000 delay time (microseconds)
+	1024 iterations per thread
+
+--------------------------------------------------------
+Computing reference time time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               168.717504   168.699026   168.502331   168.955326   0.104174   0
+reference time mean time    = 168.717504 microseconds +/- 0.204181
+reference time median time  = 168.699026 microseconds
+
+--------------------------------------------------------
+Computing STATIC time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               939.292312   938.922167   938.498974   942.897797   1.006413   1
+STATIC time         = 939.292312 microseconds +/- 1.972569
+STATIC overhead     = 770.574808 microseconds +/- 2.176751
+STATIC median_ovrhd = 770.223141 microseconds 
+
+--------------------------------------------------------
+Computing STATIC_MONOTONIC time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               4499.977231   4496.729374   4392.945766   4611.492157   43.051630   0
+STATIC_MONOTONIC time         = 4499.977231 microseconds +/- 84.381195
+STATIC_MONOTONIC overhead     = 4331.259727 microseconds +/- 84.585376
+STATIC_MONOTONIC median_ovrhd = 4328.030348 microseconds 
+
+--------------------------------------------------------
+Computing STATIC 1 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               594.522357   592.672825   586.247444   639.152527   10.939975   1
+STATIC 1 time         = 594.522357 microseconds +/- 21.442352
+STATIC 1 overhead     = 425.804853 microseconds +/- 21.646533
+STATIC 1 median_ovrhd = 423.973799 microseconds 
+
+--------------------------------------------------------
+Computing STATIC 2 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               594.847202   593.900681   586.795807   612.592697   6.024407   0
+STATIC 2 time         = 594.847202 microseconds +/- 11.807838
+STATIC 2 overhead     = 426.129699 microseconds +/- 12.012019
+STATIC 2 median_ovrhd = 425.201654 microseconds 
+
+--------------------------------------------------------
+Computing STATIC 4 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               597.771406   594.228506   586.199760   636.100769   12.563248   1
+STATIC 4 time         = 597.771406 microseconds +/- 24.623966
+STATIC 4 overhead     = 429.053903 microseconds +/- 24.828147
+STATIC 4 median_ovrhd = 425.529480 microseconds 
+
+--------------------------------------------------------
+Computing STATIC 8 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               590.457320   590.401888   582.742691   596.106052   3.357571   0
+STATIC 8 time         = 590.457320 microseconds +/- 6.580838
+STATIC 8 overhead     = 421.739817 microseconds +/- 6.785020
+STATIC 8 median_ovrhd = 421.702862 microseconds 
+
+--------------------------------------------------------
+Computing STATIC 16 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               596.764684   593.620539   585.103035   628.197193   10.201612   1
+STATIC 16 time         = 596.764684 microseconds +/- 19.995160
+STATIC 16 overhead     = 428.047180 microseconds +/- 20.199341
+STATIC 16 median_ovrhd = 424.921513 microseconds 
+
+--------------------------------------------------------
+Computing STATIC 32 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               597.763062   598.526001   591.444969   604.891777   3.480170   0
+STATIC 32 time         = 597.763062 microseconds +/- 6.821133
+STATIC 32 overhead     = 429.045558 microseconds +/- 7.025314
+STATIC 32 median_ovrhd = 429.826975 microseconds 
+
+--------------------------------------------------------
+Computing STATIC 64 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               615.425110   610.005856   605.106354   641.143322   11.101466   0
+STATIC 64 time         = 615.425110 microseconds +/- 21.758874
+STATIC 64 overhead     = 446.707606 microseconds +/- 21.963055
+STATIC 64 median_ovrhd = 441.306829 microseconds 
+
+--------------------------------------------------------
+Computing STATIC 128 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               630.109906   630.176067   626.647472   634.050369   1.879991   0
+STATIC 128 time         = 630.109906 microseconds +/- 3.684782
+STATIC 128 overhead     = 461.392403 microseconds +/- 3.888964
+STATIC 128 median_ovrhd = 461.477041 microseconds 
+
+--------------------------------------------------------
+Computing STATIC 256 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               673.052669   673.425198   665.545464   679.743290   3.982627   0
+STATIC 256 time         = 673.052669 microseconds +/- 7.805949
+STATIC 256 overhead     = 504.335165 microseconds +/- 8.010130
+STATIC 256 median_ovrhd = 504.726171 microseconds 
+
+--------------------------------------------------------
+Computing STATIC 512 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               763.525367   760.221481   755.953789   799.810886   9.722631   1
+STATIC 512 time         = 763.525367 microseconds +/- 19.056356
+STATIC 512 overhead     = 594.807863 microseconds +/- 19.260537
+STATIC 512 median_ovrhd = 591.522455 microseconds 
+
+--------------------------------------------------------
+Computing STATIC 1024 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               942.180157   939.226151   938.904285   989.949703   11.303525   1
+STATIC 1024 time         = 942.180157 microseconds +/- 22.154908
+STATIC 1024 overhead     = 773.462653 microseconds +/- 22.359089
+STATIC 1024 median_ovrhd = 770.527124 microseconds 
+
+--------------------------------------------------------
+Computing STATIC_MONOTONIC 1 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               4614.979625   4609.805346   4583.048820   4677.402973   25.102531   0
+STATIC_MONOTONIC 1 time         = 4614.979625 microseconds +/- 49.200960
+STATIC_MONOTONIC 1 overhead     = 4446.262121 microseconds +/- 49.405141
+STATIC_MONOTONIC 1 median_ovrhd = 4441.106319 microseconds 
+
+--------------------------------------------------------
+Computing STATIC_MONOTONIC 2 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               4623.680115   4613.226652   4598.402977   4690.003395   24.023573   0
+STATIC_MONOTONIC 2 time         = 4623.680115 microseconds +/- 47.086202
+STATIC_MONOTONIC 2 overhead     = 4454.962611 microseconds +/- 47.290384
+STATIC_MONOTONIC 2 median_ovrhd = 4444.527626 microseconds 
+
+--------------------------------------------------------
+Computing STATIC_MONOTONIC 4 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               4637.507200   4628.545046   4610.657692   4703.199863   24.585180   0
+STATIC_MONOTONIC 4 time         = 4637.507200 microseconds +/- 48.186953
+STATIC_MONOTONIC 4 overhead     = 4468.789697 microseconds +/- 48.391134
+STATIC_MONOTONIC 4 median_ovrhd = 4459.846020 microseconds 
+
+--------------------------------------------------------
+Computing STATIC_MONOTONIC 8 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               4637.017250   4625.976086   4610.097408   4717.791080   29.820094   0
+STATIC_MONOTONIC 8 time         = 4637.017250 microseconds +/- 58.447384
+STATIC_MONOTONIC 8 overhead     = 4468.299747 microseconds +/- 58.651565
+STATIC_MONOTONIC 8 median_ovrhd = 4457.277060 microseconds 
+
+--------------------------------------------------------
+Computing STATIC_MONOTONIC 16 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               4759.887457   4748.380184   4623.198509   4949.796200   108.405419   0
+STATIC_MONOTONIC 16 time         = 4759.887457 microseconds +/- 212.474622
+STATIC_MONOTONIC 16 overhead     = 4591.169953 microseconds +/- 212.678803
+STATIC_MONOTONIC 16 median_ovrhd = 4579.681158 microseconds 
+
+--------------------------------------------------------
+Computing STATIC_MONOTONIC 32 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               4713.297486   4728.996754   4611.945152   4819.953442   67.097080   0
+STATIC_MONOTONIC 32 time         = 4713.297486 microseconds +/- 131.510276
+STATIC_MONOTONIC 32 overhead     = 4544.579983 microseconds +/- 131.714457
+STATIC_MONOTONIC 32 median_ovrhd = 4560.297728 microseconds 
+
+--------------------------------------------------------
+Computing STATIC_MONOTONIC 64 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               4733.364582   4749.649763   4622.197151   4888.200760   83.250706   0
+STATIC_MONOTONIC 64 time         = 4733.364582 microseconds +/- 163.171383
+STATIC_MONOTONIC 64 overhead     = 4564.647079 microseconds +/- 163.375564
+STATIC_MONOTONIC 64 median_ovrhd = 4580.950737 microseconds 
+
+--------------------------------------------------------
+Computing STATIC_MONOTONIC 128 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               4750.100374   4753.226042   4622.745514   4988.956451   109.932202   0
+STATIC_MONOTONIC 128 time         = 4750.100374 microseconds +/- 215.467116
+STATIC_MONOTONIC 128 overhead     = 4581.382871 microseconds +/- 215.671297
+STATIC_MONOTONIC 128 median_ovrhd = 4584.527016 microseconds 
+
+--------------------------------------------------------
+Computing STATIC_MONOTONIC 256 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               4717.184901   4734.325409   4627.442360   4831.194878   67.431504   0
+STATIC_MONOTONIC 256 time         = 4717.184901 microseconds +/- 132.165748
+STATIC_MONOTONIC 256 overhead     = 4548.467398 microseconds +/- 132.369929
+STATIC_MONOTONIC 256 median_ovrhd = 4565.626383 microseconds 
+
+--------------------------------------------------------
+Computing STATIC_MONOTONIC 512 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               4730.005264   4757.124186   4623.353481   4849.445820   62.798138   0
+STATIC_MONOTONIC 512 time         = 4730.005264 microseconds +/- 123.084350
+STATIC_MONOTONIC 512 overhead     = 4561.287761 microseconds +/- 123.288531
+STATIC_MONOTONIC 512 median_ovrhd = 4588.425159 microseconds 
+
+--------------------------------------------------------
+Computing STATIC_MONOTONIC 1024 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               4735.839963   4757.100344   4624.748230   4903.590679   74.158301   0
+STATIC_MONOTONIC 1024 time         = 4735.839963 microseconds +/- 145.350270
+STATIC_MONOTONIC 1024 overhead     = 4567.122459 microseconds +/- 145.554451
+STATIC_MONOTONIC 1024 median_ovrhd = 4588.401318 microseconds 
+
+--------------------------------------------------------
+Computing DYNAMIC 1 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               2219.149470   2206.379175   2202.749252   2253.353596   19.351410   0
+DYNAMIC 1 time         = 2219.149470 microseconds +/- 37.928763
+DYNAMIC 1 overhead     = 2050.431967 microseconds +/- 38.132944
+DYNAMIC 1 median_ovrhd = 2037.680149 microseconds 
+
+--------------------------------------------------------
+Computing DYNAMIC 2 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               1455.760598   1443.672180   1401.710510   1849.353313   95.454239   1
+DYNAMIC 2 time         = 1455.760598 microseconds +/- 187.090309
+DYNAMIC 2 overhead     = 1287.043095 microseconds +/- 187.294490
+DYNAMIC 2 median_ovrhd = 1274.973154 microseconds 
+
+--------------------------------------------------------
+Computing DYNAMIC 4 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               1024.219990   1021.105051   1009.654999   1087.009907   15.605126   1
+DYNAMIC 4 time         = 1024.219990 microseconds +/- 30.586047
+DYNAMIC 4 overhead     = 855.502486 microseconds +/- 30.790228
+DYNAMIC 4 median_ovrhd = 852.406025 microseconds 
+
+--------------------------------------------------------
+Computing DYNAMIC 8 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               825.439692   824.248791   817.048550   849.747658   7.113440   1
+DYNAMIC 8 time         = 825.439692 microseconds +/- 13.942342
+DYNAMIC 8 overhead     = 656.722188 microseconds +/- 14.146523
+DYNAMIC 8 median_ovrhd = 655.549765 microseconds 
+
+--------------------------------------------------------
+Computing DYNAMIC 16 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               823.405385   726.228952   696.694851   2187.657356   341.107249   1
+DYNAMIC 16 time         = 823.405385 microseconds +/- 668.570209
+DYNAMIC 16 overhead     = 654.687881 microseconds +/- 668.774390
+DYNAMIC 16 median_ovrhd = 557.529926 microseconds 
+
+--------------------------------------------------------
+Computing DYNAMIC 32 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               697.479844   688.201189   686.097145   754.702091   18.530975   1
+DYNAMIC 32 time         = 697.479844 microseconds +/- 36.320711
+DYNAMIC 32 overhead     = 528.762341 microseconds +/- 36.524892
+DYNAMIC 32 median_ovrhd = 519.502163 microseconds 
+
+--------------------------------------------------------
+Computing DYNAMIC 64 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               681.832433   667.351484   664.746761   920.045376   56.287242   1
+DYNAMIC 64 time         = 681.832433 microseconds +/- 110.322994
+DYNAMIC 64 overhead     = 513.114929 microseconds +/- 110.527176
+DYNAMIC 64 median_ovrhd = 498.652458 microseconds 
+
+--------------------------------------------------------
+Computing DYNAMIC 128 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               668.442845   660.306215   658.297539   707.602501   13.149253   0
+DYNAMIC 128 time         = 668.442845 microseconds +/- 25.772537
+DYNAMIC 128 overhead     = 499.725342 microseconds +/- 25.976718
+DYNAMIC 128 median_ovrhd = 491.607189 microseconds 
+
+--------------------------------------------------------
+Computing DYNAMIC 256 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               744.912624   744.694471   736.248493   754.141808   5.944414   0
+DYNAMIC 256 time         = 744.912624 microseconds +/- 11.651052
+DYNAMIC 256 overhead     = 576.195121 microseconds +/- 11.855233
+DYNAMIC 256 median_ovrhd = 575.995445 microseconds 
+
+--------------------------------------------------------
+Computing DYNAMIC 512 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               916.939974   901.049376   885.510445   1264.643669   82.378394   1
+DYNAMIC 512 time         = 916.939974 microseconds +/- 161.461653
+DYNAMIC 512 overhead     = 748.222470 microseconds +/- 161.665834
+DYNAMIC 512 median_ovrhd = 732.350349 microseconds 
+
+--------------------------------------------------------
+Computing DYNAMIC 1024 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               965.639949   961.244106   958.955288   990.402699   9.000288   0
+DYNAMIC 1024 time         = 965.639949 microseconds +/- 17.640565
+DYNAMIC 1024 overhead     = 796.922445 microseconds +/- 17.844746
+DYNAMIC 1024 median_ovrhd = 792.545080 microseconds 
+
+--------------------------------------------------------
+Computing DYNAMIC_MONOTONIC 1 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               2226.177454   2216.202021   2206.206322   2399.408817   41.526532   1
+DYNAMIC_MONOTONIC 1 time         = 2226.177454 microseconds +/- 81.392002
+DYNAMIC_MONOTONIC 1 overhead     = 2057.459950 microseconds +/- 81.596184
+DYNAMIC_MONOTONIC 1 median_ovrhd = 2047.502995 microseconds 
+
+--------------------------------------------------------
+Computing DYNAMIC_MONOTONIC 2 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               1430.130005   1427.650452   1419.544220   1489.651203   14.942408   1
+DYNAMIC_MONOTONIC 2 time         = 1430.130005 microseconds +/- 29.287120
+DYNAMIC_MONOTONIC 2 overhead     = 1261.412501 microseconds +/- 29.491301
+DYNAMIC_MONOTONIC 2 median_ovrhd = 1258.951426 microseconds 
+
+--------------------------------------------------------
+Computing DYNAMIC_MONOTONIC 4 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               1027.572751   1025.521755   1020.300388   1066.851616   9.721161   1
+DYNAMIC_MONOTONIC 4 time         = 1027.572751 microseconds +/- 19.053475
+DYNAMIC_MONOTONIC 4 overhead     = 858.855247 microseconds +/- 19.257656
+DYNAMIC_MONOTONIC 4 median_ovrhd = 856.822729 microseconds 
+
+--------------------------------------------------------
+Computing DYNAMIC_MONOTONIC 8 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               821.072459   821.274519   814.199448   826.597214   3.507188   0
+DYNAMIC_MONOTONIC 8 time         = 821.072459 microseconds +/- 6.874089
+DYNAMIC_MONOTONIC 8 overhead     = 652.354956 microseconds +/- 7.078270
+DYNAMIC_MONOTONIC 8 median_ovrhd = 652.575493 microseconds 
+
+--------------------------------------------------------
+Computing DYNAMIC_MONOTONIC 16 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               725.530386   723.499060   715.756416   758.850574   9.803489   1
+DYNAMIC_MONOTONIC 16 time         = 725.530386 microseconds +/- 19.214839
+DYNAMIC_MONOTONIC 16 overhead     = 556.812882 microseconds +/- 19.419020
+DYNAMIC_MONOTONIC 16 median_ovrhd = 554.800034 microseconds 
+
+--------------------------------------------------------
+Computing DYNAMIC_MONOTONIC 32 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               677.962899   678.449869   670.599937   683.045387   3.156312   0
+DYNAMIC_MONOTONIC 32 time         = 677.962899 microseconds +/- 6.186372
+DYNAMIC_MONOTONIC 32 overhead     = 509.245396 microseconds +/- 6.390553
+DYNAMIC_MONOTONIC 32 median_ovrhd = 509.750843 microseconds 
+
+--------------------------------------------------------
+Computing DYNAMIC_MONOTONIC 64 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               665.122271   664.424896   659.298897   671.899319   3.997283   0
+DYNAMIC_MONOTONIC 64 time         = 665.122271 microseconds +/- 7.834675
+DYNAMIC_MONOTONIC 64 overhead     = 496.404767 microseconds +/- 8.038856
+DYNAMIC_MONOTONIC 64 median_ovrhd = 495.725870 microseconds 
+
+--------------------------------------------------------
+Computing DYNAMIC_MONOTONIC 128 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               674.615502   674.676895   666.356087   679.790974   3.933692   0
+DYNAMIC_MONOTONIC 128 time         = 674.615502 microseconds +/- 7.710037
+DYNAMIC_MONOTONIC 128 overhead     = 505.897999 microseconds +/- 7.914218
+DYNAMIC_MONOTONIC 128 median_ovrhd = 505.977869 microseconds 
+
+--------------------------------------------------------
+Computing DYNAMIC_MONOTONIC 256 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               718.352795   716.972351   711.548328   751.101971   8.431113   1
+DYNAMIC_MONOTONIC 256 time         = 718.352795 microseconds +/- 16.524981
+DYNAMIC_MONOTONIC 256 overhead     = 549.635291 microseconds +/- 16.729162
+DYNAMIC_MONOTONIC 256 median_ovrhd = 548.273325 microseconds 
+
+--------------------------------------------------------
+Computing DYNAMIC_MONOTONIC 512 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               841.650367   843.697786   801.110268   856.947899   12.268359   1
+DYNAMIC_MONOTONIC 512 time         = 841.650367 microseconds +/- 24.045983
+DYNAMIC_MONOTONIC 512 overhead     = 672.932863 microseconds +/- 24.250164
+DYNAMIC_MONOTONIC 512 median_ovrhd = 674.998760 microseconds 
+
+--------------------------------------------------------
+Computing DYNAMIC_MONOTONIC 1024 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               1037.243009   1037.275791   1022.553444   1055.252552   9.531850   0
+DYNAMIC_MONOTONIC 1024 time         = 1037.243009 microseconds +/- 18.682425
+DYNAMIC_MONOTONIC 1024 overhead     = 868.525505 microseconds +/- 18.886606
+DYNAMIC_MONOTONIC 1024 median_ovrhd = 868.576765 microseconds 
+
+--------------------------------------------------------
+Computing GUIDED 1 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               650.895238   647.175312   643.861294   674.700737   8.101431   0
+GUIDED 1 time         = 650.895238 microseconds +/- 15.878805
+GUIDED 1 overhead     = 482.177734 microseconds +/- 16.082986
+GUIDED 1 median_ovrhd = 478.476286 microseconds 
+
+--------------------------------------------------------
+Computing GUIDED 2 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               645.686984   642.228127   641.405582   656.044483   5.433979   0
+GUIDED 2 time         = 645.686984 microseconds +/- 10.650598
+GUIDED 2 overhead     = 476.969481 microseconds +/- 10.854780
+GUIDED 2 median_ovrhd = 473.529100 microseconds 
+
+--------------------------------------------------------
+Computing GUIDED 4 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               647.134781   645.047426   638.854504   695.991516   12.781844   1
+GUIDED 4 time         = 647.134781 microseconds +/- 25.052415
+GUIDED 4 overhead     = 478.417277 microseconds +/- 25.256596
+GUIDED 4 median_ovrhd = 476.348400 microseconds 
+
+--------------------------------------------------------
+Computing GUIDED 8 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               640.105009   642.150640   622.701645   655.996799   10.112440   0
+GUIDED 8 time         = 640.105009 microseconds +/- 19.820382
+GUIDED 8 overhead     = 471.387506 microseconds +/- 20.024564
+GUIDED 8 median_ovrhd = 473.451614 microseconds 
+
+--------------------------------------------------------
+Computing GUIDED 16 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               632.067323   631.755590   618.195534   676.655769   12.675043   1
+GUIDED 16 time         = 632.067323 microseconds +/- 24.843085
+GUIDED 16 overhead     = 463.349819 microseconds +/- 25.047266
+GUIDED 16 median_ovrhd = 463.056564 microseconds 
+
+--------------------------------------------------------
+Computing GUIDED 32 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               643.862486   644.028187   634.646416   650.107861   3.640162   0
+GUIDED 32 time         = 643.862486 microseconds +/- 7.134718
+GUIDED 32 overhead     = 475.144982 microseconds +/- 7.338900
+GUIDED 32 median_ovrhd = 475.329161 microseconds 
+
+--------------------------------------------------------
+Computing GUIDED 64 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               630.272627   629.949570   623.404980   635.254383   3.314061   0
+GUIDED 64 time         = 630.272627 microseconds +/- 6.495559
+GUIDED 64 overhead     = 461.555123 microseconds +/- 6.699740
+GUIDED 64 median_ovrhd = 461.250544 microseconds 
+
+--------------------------------------------------------
+Computing GUIDED 128 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               670.740008   670.355558   659.751892   699.496269   8.521904   1
+GUIDED 128 time         = 670.740008 microseconds +/- 16.702932
+GUIDED 128 overhead     = 502.022505 microseconds +/- 16.907113
+GUIDED 128 median_ovrhd = 501.656532 microseconds 
+
+--------------------------------------------------------
+Computing GUIDED 256 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               730.567575   727.772713   715.959072   748.097897   9.158374   0
+GUIDED 256 time         = 730.567575 microseconds +/- 17.950414
+GUIDED 256 overhead     = 561.850071 microseconds +/- 18.154595
+GUIDED 256 median_ovrhd = 559.073687 microseconds 
+
+--------------------------------------------------------
+Computing GUIDED 512 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               826.040506   819.450617   814.390182   892.806053   19.389925   1
+GUIDED 512 time         = 826.040506 microseconds +/- 38.004253
+GUIDED 512 overhead     = 657.323003 microseconds +/- 38.208434
+GUIDED 512 median_ovrhd = 650.751591 microseconds 
+
+--------------------------------------------------------
+Computing GUIDED 1024 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               1011.482477   1009.279490   996.696949   1046.848297   11.351530   1
+GUIDED 1024 time         = 1011.482477 microseconds +/- 22.248999
+GUIDED 1024 overhead     = 842.764974 microseconds +/- 22.453181
+GUIDED 1024 median_ovrhd = 840.580463 microseconds 
+
+--------------------------------------------------------
+Computing GUIDED_MONOTONIC 1 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               647.397041   643.801689   643.050671   658.547878   5.658510   0
+GUIDED_MONOTONIC 1 time         = 647.397041 microseconds +/- 11.090680
+GUIDED_MONOTONIC 1 overhead     = 478.679538 microseconds +/- 11.294861
+GUIDED_MONOTONIC 1 median_ovrhd = 475.102663 microseconds 
+
+--------------------------------------------------------
+Computing GUIDED_MONOTONIC 2 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               648.285747   644.201040   640.797615   665.557384   8.185106   0
+GUIDED_MONOTONIC 2 time         = 648.285747 microseconds +/- 16.042807
+GUIDED_MONOTONIC 2 overhead     = 479.568243 microseconds +/- 16.246988
+GUIDED_MONOTONIC 2 median_ovrhd = 475.502014 microseconds 
+
+--------------------------------------------------------
+Computing GUIDED_MONOTONIC 4 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               635.369420   637.602806   619.351864   654.542446   10.495298   0
+GUIDED_MONOTONIC 4 time         = 635.369420 microseconds +/- 20.570785
+GUIDED_MONOTONIC 4 overhead     = 466.651917 microseconds +/- 20.774966
+GUIDED_MONOTONIC 4 median_ovrhd = 468.903780 microseconds 
+
+--------------------------------------------------------
+Computing GUIDED_MONOTONIC 8 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               636.990070   637.602806   621.950626   668.704510   9.688002   1
+GUIDED_MONOTONIC 8 time         = 636.990070 microseconds +/- 18.988483
+GUIDED_MONOTONIC 8 overhead     = 468.272567 microseconds +/- 19.192664
+GUIDED_MONOTONIC 8 median_ovrhd = 468.903780 microseconds 
+
+--------------------------------------------------------
+Computing GUIDED_MONOTONIC 16 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               632.514954   632.500648   624.859333   639.402866   3.576514   0
+GUIDED_MONOTONIC 16 time         = 632.514954 microseconds +/- 7.009968
+GUIDED_MONOTONIC 16 overhead     = 463.797450 microseconds +/- 7.214149
+GUIDED_MONOTONIC 16 median_ovrhd = 463.801622 microseconds 
+
+--------------------------------------------------------
+Computing GUIDED_MONOTONIC 32 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               667.235255   646.251440   640.344620   1028.454304   85.322225   1
+GUIDED_MONOTONIC 32 time         = 667.235255 microseconds +/- 167.231562
+GUIDED_MONOTONIC 32 overhead     = 498.517752 microseconds +/- 167.435743
+GUIDED_MONOTONIC 32 median_ovrhd = 477.552414 microseconds 
+
+--------------------------------------------------------
+Computing GUIDED_MONOTONIC 64 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               630.025268   629.746914   623.452663   635.802746   3.410279   0
+GUIDED_MONOTONIC 64 time         = 630.025268 microseconds +/- 6.684147
+GUIDED_MONOTONIC 64 overhead     = 461.307764 microseconds +/- 6.888328
+GUIDED_MONOTONIC 64 median_ovrhd = 461.047888 microseconds 
+
+--------------------------------------------------------
+Computing GUIDED_MONOTONIC 128 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               678.690672   679.922104   667.858124   681.352615   3.470511   1
+GUIDED_MONOTONIC 128 time         = 678.690672 microseconds +/- 6.802202
+GUIDED_MONOTONIC 128 overhead     = 509.973168 microseconds +/- 7.006383
+GUIDED_MONOTONIC 128 median_ovrhd = 511.223078 microseconds 
+
+--------------------------------------------------------
+Computing GUIDED_MONOTONIC 256 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               739.162564   740.504265   726.747513   754.296780   8.863473   0
+GUIDED_MONOTONIC 256 time         = 739.162564 microseconds +/- 17.372407
+GUIDED_MONOTONIC 256 overhead     = 570.445061 microseconds +/- 17.576589
+GUIDED_MONOTONIC 256 median_ovrhd = 571.805239 microseconds 
+
+--------------------------------------------------------
+Computing GUIDED_MONOTONIC 512 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               823.534727   820.821524   814.402103   859.248638   9.628363   1
+GUIDED_MONOTONIC 512 time         = 823.534727 microseconds +/- 18.871592
+GUIDED_MONOTONIC 512 overhead     = 654.817224 microseconds +/- 19.075773
+GUIDED_MONOTONIC 512 median_ovrhd = 652.122498 microseconds 
+
+--------------------------------------------------------
+Computing GUIDED_MONOTONIC 1024 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               1010.894775   1011.103392   999.093056   1025.402546   7.502481   0
+GUIDED_MONOTONIC 1024 time         = 1010.894775 microseconds +/- 14.704863
+GUIDED_MONOTONIC 1024 overhead     = 842.177272 microseconds +/- 14.909044
+GUIDED_MONOTONIC 1024 median_ovrhd = 842.404366 microseconds 
+
+--------------------------------------------------------
+Computing TASKLOOP 1 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               2447.620034   2449.077368   2392.995358   2520.704269   36.303642   0
+TASKLOOP 1 time         = 2447.620034 microseconds +/- 71.155139
+TASKLOOP 1 overhead     = 2278.902531 microseconds +/- 71.359320
+TASKLOOP 1 median_ovrhd = 2280.378342 microseconds 
+
+--------------------------------------------------------
+Computing TASKLOOP 2 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               1554.440260   1551.526785   1532.304287   1591.849327   15.792427   0
+TASKLOOP 2 time         = 1554.440260 microseconds +/- 30.953157
+TASKLOOP 2 overhead     = 1385.722756 microseconds +/- 31.157338
+TASKLOOP 2 median_ovrhd = 1382.827759 microseconds 
+
+--------------------------------------------------------
+Computing TASKLOOP 4 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               1108.731627   1107.650995   1099.896431   1120.746136   5.365347   0
+TASKLOOP 4 time         = 1108.731627 microseconds +/- 10.516080
+TASKLOOP 4 overhead     = 940.014124 microseconds +/- 10.720261
+TASKLOOP 4 median_ovrhd = 938.951969 microseconds 
+
+--------------------------------------------------------
+Computing TASKLOOP 8 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               862.492323   863.224268   839.710236   881.743431   12.826603   0
+TASKLOOP 8 time         = 862.492323 microseconds +/- 25.140143
+TASKLOOP 8 overhead     = 693.774819 microseconds +/- 25.344324
+TASKLOOP 8 median_ovrhd = 694.525242 microseconds 
+
+--------------------------------------------------------
+Computing TASKLOOP 16 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               745.689273   746.148825   739.490986   751.352310   3.205701   0
+TASKLOOP 16 time         = 745.689273 microseconds +/- 6.283174
+TASKLOOP 16 overhead     = 576.971769 microseconds +/- 6.487355
+TASKLOOP 16 median_ovrhd = 577.449799 microseconds 
+
+--------------------------------------------------------
+Computing TASKLOOP 32 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               690.180063   688.022375   680.553913   721.895695   9.631539   1
+TASKLOOP 32 time         = 690.180063 microseconds +/- 18.877817
+TASKLOOP 32 overhead     = 521.462560 microseconds +/- 19.081998
+TASKLOOP 32 median_ovrhd = 519.323349 microseconds 
+
+--------------------------------------------------------
+Computing TASKLOOP 64 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               672.755241   670.552254   663.006306   720.143318   12.002392   1
+TASKLOOP 64 time         = 672.755241 microseconds +/- 23.524687
+TASKLOOP 64 overhead     = 504.037738 microseconds +/- 23.728869
+TASKLOOP 64 median_ovrhd = 501.853228 microseconds 
+
+--------------------------------------------------------
+Computing TASKLOOP 128 time using 20 reps
+
+Sample_size       Mean       Median     Min        Max        StdDev     Outliers
+ 20               679.949522   678.580999   671.589375   689.995289   5.420387   0
+TASKLOOP 128 time         = 679.949522 microseconds +/- 10.623959
+TASKLOOP 128 overhead     = 511.232018 microseconds +/- 10.828140
+TASKLOOP 128 median_ovrhd = 509.881973 microseconds 

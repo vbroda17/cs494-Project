@@ -1,52 +1,52 @@
 Using scheduling type: static, 2
 Number of threads: 4
+Hello from thread 3
+Hello from thread 3
+Hello from thread 2
+Hello from thread 2
 Hello from thread 0
 Hello from thread 0
 Hello from thread 1
-Hello from thread 2
 Hello from thread 1
-Hello from thread 2
-Hello from thread 3
-Hello from thread 3
 Sum 1784293664
-Elapsed time: 0.002071 seconds
+Elapsed time: 0.004951 seconds
 
 Using scheduling type: dynamic, 2
 Number of threads: 4
 Hello from thread 0
-Hello from thread 1
+Hello from thread 2
 Hello from thread 0
+Hello from thread 3
+Hello from thread 3
+Hello from thread 2
 Hello from thread 1
-Hello from thread 3
-Hello from thread 3
-Hello from thread 2
-Hello from thread 2
+Hello from thread 1
 Sum 1784293664
-Elapsed time: 0.010520 seconds
+Elapsed time: 0.011392 seconds
 
 Using scheduling type: guided
 Number of threads: 4
 Hello from thread 0
-Hello from thread 2
-Hello from thread 0
-Hello from thread 2
-Hello from thread 2
-Hello from thread 2
 Hello from thread 1
 Hello from thread 3
+Hello from thread 1
+Hello from thread 2
+Hello from thread 1
+Hello from thread 2
+Hello from thread 0
 Sum 1784293664
-Elapsed time: 0.000711 seconds
+Elapsed time: 0.000723 seconds
 
 Using scheduling type: auto
 Number of threads: 4
 Hello from thread 0
-Hello from thread 2
-Hello from thread 1
 Hello from thread 0
-Hello from thread 1
-Hello from thread 3
-Hello from thread 3
 Hello from thread 2
+Hello from thread 2
+Hello from thread 3
+Hello from thread 3
+Hello from thread 1
+Hello from thread 1
 Sum 1784293664
-Elapsed time: 0.000768 seconds
+Elapsed time: 0.001396 seconds
 

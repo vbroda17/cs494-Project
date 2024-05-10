@@ -43,6 +43,7 @@
 int cksz, itersperthr = 1024;
 char testName[32];
 extern char type[120];
+double e = .01;
 int main(int argc, char **argv) {
 
     init(argc, argv);
@@ -105,7 +106,7 @@ int main(int argc, char **argv) {
     /* TEST GUIDED,n */
     if((strcmp("GUIDED",type)==0)||(strcmp("ALL",type)==0)){
       cksz = 1;
-      while (cksz <= itersperthr / nthreads) {
+      while (cksz <= itersperthr) {
         sprintf(testName, "GUIDED %d", cksz);
         benchmark(testName, &testguidedn);
       cksz *= 2;
@@ -114,7 +115,7 @@ int main(int argc, char **argv) {
 
     if((strcmp("GUIDED_MONOTONIC",type)==0)||(strcmp("ALL",type)==0)){
       cksz = 1;
-      while (cksz <= itersperthr / nthreads) {
+      while (cksz <= itersperthr) {
         sprintf(testName, "GUIDED_MONOTONIC %d", cksz);
         benchmark(testName, &testguidednmono);
         cksz *= 2;
@@ -139,7 +140,7 @@ void refer() {
     int i, j;
     for (j = 0; j < innerreps; j++) {
       for (i = 0; i < itersperthr; i++) {
-        delay(delaylength);
+        delay(delaylength + (i * delaylength) / itersperthr);
       }
     }
 }
@@ -149,12 +150,12 @@ void teststatic() {
     int i, j;
 #pragma omp parallel private(j)
     {
-	for (j = 0; j < innerreps; j++) {
+	  for (j = 0; j < innerreps; j++) {
 #pragma omp for schedule(static)
-	    for (i = 0; i < itersperthr * nthreads; i++) {
-		delay(delaylength);
+	      for (i = 0; i < itersperthr * nthreads; i++) {
+        delay(delaylength + (i * delaylength) / itersperthr);
+	      }
 	    }
-	}
     }
 }
 void teststaticmono() {
@@ -165,7 +166,7 @@ void teststaticmono() {
 	for (j = 0; j < innerreps; j++) {
 #pragma omp for schedule(monotonic:static)
 	    for (i = 0; i < itersperthr * nthreads; i++) {
-		delay(delaylength);
+        delay(delaylength + (i * delaylength) / itersperthr);
 	    }
 	}
     }
@@ -177,10 +178,10 @@ void teststaticn() {
     {
 	for (j = 0; j < innerreps; j++) {
 #pragma omp for schedule(static,cksz)
-	    for (i = 0; i < itersperthr * nthreads; i++) {
-		delay(delaylength);
+	      for (i = 0; i < itersperthr * nthreads; i++) {
+        delay(delaylength + (i * delaylength) / itersperthr);
+	      }
 	    }
-	}
     }
 }
 
@@ -191,11 +192,14 @@ void teststaticnmono() {
     for (j = 0; j < innerreps; j++) {
 #pragma omp for schedule(monotonic:static,cksz)
         for (i = 0; i < itersperthr * nthreads; i++) {
-        delay(delaylength);
+        delay(delaylength + (i * delaylength) / itersperthr);
         }
       }
     }
 }
+
+//////////// ADDED NONMONOTINIC FUNCTION
+
 
 
 void testdynamicn() {
@@ -205,7 +209,7 @@ void testdynamicn() {
     for (j = 0; j < innerreps; j++) {
 #pragma omp for schedule(dynamic,cksz)
         for (i = 0; i < itersperthr * nthreads; i++) {
-        delay(delaylength);
+        delay(delaylength + (i * delaylength) / itersperthr);
         }
       }
     }
@@ -218,7 +222,7 @@ void testdynamicnmono() {
     for (j = 0; j < innerreps; j++) {
 #pragma omp for schedule(monotonic:dynamic,cksz)
         for (i = 0; i < itersperthr * nthreads; i++) {
-        delay(delaylength);
+        delay(delaylength + (i * delaylength) / itersperthr);
         }
     }
     }
@@ -231,7 +235,7 @@ void testguidedn() {
     for (j = 0; j < innerreps; j++) {
 #pragma omp for schedule(guided,cksz)
         for (i = 0; i < itersperthr * nthreads; i++) {
-        delay(delaylength);
+        delay(delaylength + (i * delaylength) / itersperthr);
         }
       }
     }
@@ -243,10 +247,11 @@ void testguidednmono() {
     for (j = 0; j < innerreps; j++) {
 #pragma omp for schedule(monotonic:guided,cksz)
         for (i = 0; i < itersperthr * nthreads; i++) {
-        delay(delaylength);
+        delay(delaylength + (i * delaylength) / itersperthr);
         }
       }
     }
+    
 }
 
 void taskloopn() {
@@ -258,7 +263,7 @@ void taskloopn() {
       for (j = 0; j < innerreps; j++) {
         #pragma omp taskloop num_tasks((itersperthr*nthreads)/cksz)
         for (i = 0; i < itersperthr * nthreads; i++) {
-          delay(delaylength);
+        delay(delaylength + (i * delaylength) / itersperthr);
         }
       }
     }

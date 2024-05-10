@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "math.h": "c",
+        "omp.h": "c",
+        "adc.h": "c",
+        "macrodef.h": "c"
+    }
+}

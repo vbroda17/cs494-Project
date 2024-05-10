@@ -1,0 +1,41 @@
+is uses C
+ of a Cr
+ ay YMP The
+operation count for the Integer Sort benchmark is based on integer oper
+ations rather than 	foatingpoint operations
+
+IS A large integer sort This kernel performs a sorting operation that is
+important in "particle method" codes It tests both integer computa
+tion speed and comunication performance
+
+
+Counldn't do because of werird format of this program
+DC (Data Cube): Focuses on data cube operations.
+
+
+
+----------------------------------------------------------
+Left to do
+~ original bench
+Ok so I have an unbalanced workload to our original bench mark. It just makes the simulated workload take longer with later iterations.
+I need to run this to get the full data we will use on the graphs. We can then analyze these results some.
+Still need to figure out thing why monotonic took longer or why guided had so much less overhead at first. (Idea might simply switch to static?)
+
+~ new bench
+I have Gotten the NPB benchmark working and modified it to use runtime scheduling whenver possible. 7/9 possible scheduling points where changes.
+The two that remained unchanged where left because they broke the semantics of the original program.
+Changed made where:
+unspecified to runtime: 3
+static to runtime:4
+dynamic to runtime:2
+Remain unchanged:2
+
+They also mention this in their code: Because the distribution
+    of the number of keys in the buckets is Gaussian, the use of
+    a dynamic schedule should improve load balance, thus, performance
+Signifying they had at least a bit of thought put behind how preformance should be done. This is a big reason to include the original reference.
+
+With this said, I need to run the benchmark, with testIS_average.sh to get the results of our findings, using testIS_orig_average.sh to get the reference. 
+This can be ploted with plot.ipynb. 
+I plan on doing the test with the C class. Specifics about its workload are online. It has 2^27 keys and 2^23 is the key max value.
+Will need to explain the benchmark a bit more but I think I have the information needed to do this.
